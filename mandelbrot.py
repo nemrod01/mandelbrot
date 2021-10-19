@@ -17,7 +17,8 @@ print("yo")
 
 #nx = 2.48 / (n-1)
 #ny = 2.26 / (n-1)
-testlamb = lambda x,y: (x*x, y+1,x+y)
+#testlamb = lambda x,y: (x*x, y+1,x+y)
+testlamb = lambda x,y: np.complex(x,y)
 
 for x in range(10):
     for y in range(10):
